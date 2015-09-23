@@ -1,0 +1,20 @@
+{
+  "name": "createjs-study",
+  "version": "0.0.0",
+  "authors": [
+    "Simon <simonxd@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "scrollmagic": "ScrollMagic#~2.0.5",
+    "TweenJS": "~0.6.1",
+    "velocity": "~1.2.2"
+  }
+}

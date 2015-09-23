@@ -1,0 +1,97 @@
+.scenario {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    height: 800px;
+
+    width: 100%;
+
+    position: relative;
+}
+
+/* scenario 1 */
+#scenario-1 {
+    background-color: yellow;
+}
+
+#target-1 {
+    background-color: darkred;
+
+    height: 100px;
+    width: 100px;
+}
+
+/* scenario 2 */
+#square-scenario {
+    background-color: skyblue;
+}
+
+#square-wrapper {
+
+    height: 100px;
+    width: 100px;
+
+    position: relative;
+
+    background-color: grey;
+}
+
+.square-border {
+
+    position: absolute;
+
+    width: 2px;
+    height: 100px;
+    background-color: black;
+}
+
+#square-left {
+    top: 0px;
+    left: 0px;
+
+    background-color: red;
+}
+
+#square-top {
+    top: -50px;
+    left: 50px;
+
+    transform: rotateZ(-90deg);
+
+    background-color: green;
+}
+
+#square-right {
+    top: 0px;
+    left: 100px;
+
+    background-color: pink;
+}
+
+#square-bottom {
+    top: 50px;
+    left: 50px;
+
+    transform: rotateZ(-90deg);
+
+    background-color: black;
+}
+
+/* scenario 3 */
+
+#scenario-3 {
+    background-color: lightgreen;
+}
+
+#target-3 {
+    background-color: darkgreen;
+
+    width: 500px;
+    height: 500px;
+
+    border-radius: 50%;
+
+    transform: scale(0.1);
+}
